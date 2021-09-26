@@ -1,0 +1,23 @@
+.card {
+  border: solid 1px #ccc;
+  width: 43%;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.price {
+  font-weight: bolder;
+  color: green;
+}
+
+.filtering {
+  width: 100%;
+  align-content: center;
+}
+
+.search {
+  border: none !important;
+  border-radius: 10px;
+  @include boxshadow(rgba(0, 0, 0, 0.2));
+}

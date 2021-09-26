@@ -13,6 +13,7 @@ for (let i = 0; i < data.length; i++) {
     <div class="card-body">
       <h5 class="card-title">${data[i].title}</h5>
       <p class="card-text">${data[i].description}</p>
+      <p class="card-text price">${data[i].price}</p>
       <a href="#" class="btn btn-primary">Add to favourites</a>
     </div>
   </div>`;
@@ -32,6 +33,7 @@ searchBar.onkeyup = function () {
       <div class="card-body">
         <h5 class="card-title">${sortedByPrice[i].title}</h5>
         <p class="card-text">${sortedByPrice[i].description}</p>
+    
         <a href="#" class="btn btn-primary">Add to favourites</a>
       </div>
     </div>`;
